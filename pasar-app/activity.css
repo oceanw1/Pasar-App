@@ -1,0 +1,112 @@
+*{
+  font-family: "Century Gothic", CenturyGothic, AppleGothic;
+}
+
+p{
+ font-size: 25px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+    height: 6%;
+    background-color: #28B67E;
+}
+
+.header span {
+  font-size: 66px;
+  color: white;
+}
+
+.container{
+    height: 87%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.status{
+    height: 4%;
+    width: 85%;
+    margin-top: 3%;
+    padding-top: 1%;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.orders{
+    height: 35%;
+    width: 85%;
+    margin-top: 20px;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    text-align: left;
+}
+
+.orders .subtitle {
+    font-size: 60px;
+    margin: 10px 20px;
+    font-weight: 500;
+    margin-bottom: 60px;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  margin: 15px 10px;
+}
+
+.caption {
+  margin-left: 20px;
+}
+
+.item-name {
+  margin-top: 0;
+}
+
+.orders .total {
+  border-radius: 50px;
+  background-color: #28B67E;
+  float: right;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  height: 10%;
+  width: 40%;
+  text-align: center;
+  font-size: 26px;
+  font-weight: 700;
+  color: white;
+  padding-top: 20px;
+}
+
+.menus {
+    background-color: #28B67E;
+    height: 7%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-decoration: none;
+}
+
+.menu img {
+    height: 70px;
+}
+
+.menu span {
+    color: white;
+    font-size: 25px;
+}

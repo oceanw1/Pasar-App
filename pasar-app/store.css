@@ -1,0 +1,207 @@
+*{
+    font-family: 'Century Gothic', Courier, monospace;
+  }
+
+
+  /*  store shit */
+
+  .section-header {
+    font-family: "Century Gothic";
+    font-weight: normal;
+    color: #ffff;
+    background-color: #28B67E;
+    border-radius: 13px;
+    text-align: center;
+    font-size: 7em;
+}
+
+
+  .cart-header {
+    font-weight: bold;
+    font-size: 3em;
+    color: #333;
+}
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row {
+    display: flex;
+}
+
+.cart-item {
+    width: 45%;
+}
+
+.cart-price {
+    width: 20%;
+    font-size: 2em;
+    color: #333;
+}
+
+.cart-pricet{
+    width: 20%;
+    font-size: 3em;
+    color: #333;
+
+}
+
+.cart-quantity {
+    width: 35%;
+}
+
+.cart-item-title {
+    color: #333;
+    margin-left: .5em;
+    font-size: 2em;
+}
+
+.cart-item-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.btn-danger {
+    color: white;
+    font-size: 1em;
+    background-color: #EB5757;
+    border: none;
+    border-radius: 20em;
+    font-weight: bold;
+    width: 40%;
+    height: 80%;
+}
+
+.btn-danger:hover {
+    background-color: #CC4C4C;
+}
+
+.cart-quantity-input {
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid #28B67E;
+    background-color: #eee;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 25px;
+}
+
+.cart-row:last-child {
+    border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+    border: none;
+}
+
+.cart-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 3em;
+    color: black;
+    margin-right: 20px;
+}
+
+.cart-total-price {
+    color: #333;
+    font-size: 2.2em;
+}
+
+.btn-purchase {
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.75em;
+}
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em .67em;
+    cursor: pointer;
+}
+
+.btn-primary {
+    color: white;
+    background-color: #28B67E;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+
+.btn-purchase {
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.75em;
+}
+
+.search {
+  text-align: center;
+  margin: 0;
+  width: 100%;
+  height: 6%;
+  background-color: #28B67E;
+}
+
+.search-bar {
+  width: 90%;
+  height: 70%;
+  margin-top: 20px;
+  border-radius: 20px;
+  font-size: 36px;
+  border-style: hidden;
+}
+
+.menus {
+    background-color: #28B67E;
+    height: 7%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-decoration: none;
+}
+
+.menu img {
+    height: 70px;
+}
+
+.menu span {
+    color: white;
+    font-size: 25px;
+}
+
+
+
+.section-header {
+  font-weight: normal;
+  color: #ffff;
+  text-align: center;
+  font-size: 2.5em;
+}
+
+.mainContainer{
+  /* display: flex; */
+  margin: 10px;
+}
+

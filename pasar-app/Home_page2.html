@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="HomePage2.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Document</title>
+</head>
+<body>
+  <style>
+    img {
+      height: 35px;
+      width: 32px;
+      margin: 5px;
+
+    }
+  </style>
+
+<div class="header">
+  <span>Basket</span>
+</div>
+
+  <div class="mainContainer">
+    <h1 id="Location">Location: Unavailable</h1>
+    <div class="section1HomePage2">
+      <Button class="featuredPasar">
+        <i> <img src="./Images/pasar_logo.png" alt="" style="height: 50px; width: 50px;"></i>
+        <h1>Pasar Puri
+          <br>
+          (5.9 KM)</h1>
+      </Button>
+      <div class="featuredPasarItems">
+        <h3>Vegetables</h3>
+        <hr>
+        <div class="featuredPasarItemsForsale">
+          <img src="./Images/Onion.jpeg" alt="Onion">
+          <!-- <hr> -->
+          <h2 class="itemDesc">
+            Stall: A3
+            <hr>
+            Rp: 30.000
+          </h2>
+        </div>
+        <div class="featuredPasarItemsForsale">
+          <img src="./Images/bokchoi.jpeg" alt="Bok Choi">
+          <h2 class="itemDesc">
+            Stall: C7
+            <hr>
+            Rp: 30.000
+          </h2>
+        </div>
+      </div>
+      <div class="featuredPasarItems"><h3>Fish</h3>
+        <hr>
+        <div class="featuredPasarItemsForsale">
+          <img src="./Images/fish1.png" alt="fish1">
+          <!-- <hr> -->
+          <h2 class="itemDesc">
+            Stall: A3
+            <hr>
+            Rp: 30.000
+          </h2>
+        </div>
+        <div class="featuredPasarItemsForsale">
+          <img src="./Images/Fish2.png" alt="Fish2">
+          <h2 class="itemDesc">
+            Stall: C7
+            <hr>
+            Rp: 30.000
+          </h2>
+        </div></div>
+      <div class="featuredPasarItems"><h3>Fruits</h3>
+        <hr>
+        <div class="featuredPasarItemsForsale">
+          <img src="./Images/apple.png" alt="apple">
+          <!-- <hr> -->
+          <h2 class="itemDesc">
+            Stall: A3
+            <hr>
+            Rp: 30.000
+          </h2>
+        </div>
+        <div class="featuredPasarItemsForsale">
+          <img src="./Images/mango.png" alt="manga">
+          <h2 class="itemDesc">
+            Stall: C7
+            <hr>
+            Rp: 30.000
+          </h2>
+        </div></div>
+    </div>
+
+    <!-- SECTION 2 -->
+    <div class="section2HomePage2">
+      <h2>Vendor Selling Item</h2>
+      <div class="vendorsSection">
+        <img id="Vendors" src="./Images/Vendor 1.jpeg" alt="Vendor 1">
+        <h3>Stall: A4
+          <br>
+          Vendor: Ayu
+          <hr>
+          Rp:10.000
+        </h3>
+        <div class="productAmount">
+          <div class="fish">
+            <img src="./Images/fish1.png" alt="Fish">
+          </div>
+          <div class="PlusMinus">
+            <button onclick="counterSubtract1()"><i class="fa fa-minus" aria-hidden="true"></i></button>
+            <h3 id="Result1">0</h3>
+            <button onclick="counterAdd1()"><i class="fa fa-plus" aria-hidden="true"></i></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="vendorsSection">
+        <img id="Vendors" src="./Images/Vendor 2.jpeg" alt="Vendor 2">
+        <h3>Stall: B7
+          <br>
+          Vendor: Agung
+          <hr>
+          Rp:16.000
+        </h3>
+        <div class="productAmount">
+          <div class="fish">
+            <img src="./Images/fish1.png" alt="Fish">
+          </div>
+          <div class="PlusMinus">
+            <button onclick="counterSubtract2()"><i class="fa fa-minus" aria-hidden="true"></i></button>
+            <h3 id="Result2">0</h3>
+            <button onclick="counterAdd2()"><i class="fa fa-plus" aria-hidden="true"></i></button>
+          </div> 
+        </div>
+      </div>
+      <div class="vendorsSection">
+        <img id="Vendors" src="./Images/Vendor 3.jpeg" alt="Vendor 3">
+        <h3>Stall: F5
+          <br>
+          Vendor: Dewi
+          <hr>
+          Rp:14.000
+        </h3>
+        <div class="productAmount">
+          <div class="fish">
+            <img src="./Images/fish1.png" alt="Fish">
+          </div>
+          <div class="PlusMinus">
+            <button onclick="counterSubtract3()"><i class="fa fa-minus" aria-hidden="true"></i></button>
+            <h3 id="Result3">0</h3>
+            <button onclick="counterAdd3()"><i class="fa fa-plus" aria-hidden="true"></i></button>
+          </div>
+        </div>
+      </div>
+      <a href="activity.html" style="text-decoration: none; margin-bottom: 20px;"><button id="Buy" >Buy</button></a>
+    <!-- </div>
+    <h1 id="Total">TOTAL: Rp:0</h1>
+  </div> -->
+
+  <div class="menus">
+    <a href="index.html" class="menu">
+        <img src="Images/home.png" alt="">
+        <span>Home</span>
+    </a>
+    <a href="Home_page2.html" class="menu">
+        <img src="Images/Basket.png" alt="">
+        <span>Basket</span>
+    </a>
+    <a href="activity.html" class="menu">
+        <img src="Images/Activity Icon.png" alt="">
+        <span>Activity</span>
+    </a>
+    <a href="chatbot.html" class="menu">
+        <img src="Images/Chat Icon.png" alt="">
+        <span>Chat</span>
+    </a>
+  </div>
+
+</body>
+
+<script src="index.js"></script>
+</html>

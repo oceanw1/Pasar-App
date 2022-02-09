@@ -1,0 +1,210 @@
+*{
+  font-family: 'Century Gothic', Courier, monospace;
+}
+
+body {
+}
+
+/* SECTION 1 OF HOMEPAGE 2 */
+.mainContainer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+#Location{
+  background-color: #28B67E;
+  color: white;
+  padding: 10px 10px;
+  border-radius: 12px;
+  font-size: 24px;
+  /* margin: 10px; */
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: 320px;
+}
+/* .section1HomePage2{
+
+} */
+.featuredPasar{
+  display: flex;
+  color: black;
+  height: 70px;
+  width: 250px;
+  padding: 20px 0px;
+  background-color: white;
+  border: none;
+}
+.featuredPasar h1{
+  margin: 0 0 0 10px;
+  font-size: 18px;
+}
+.featuredPasarItems{
+  display: inline-block;
+  height: 200px;
+  width: 30%;
+  margin: 10px 3px;
+  box-sizing: border-box;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+}
+.featuredPasarItems h3{
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+}
+.itemDesc{
+  font-size: 10px;
+}
+hr{
+  background-color: #28B67E;
+  height: 1px;
+  width: 80%;
+}
+.featuredPasarItemsForsale{
+  display: flex;
+}
+.featuredPasarItemsForsale hr{
+  width: 70%;
+}
+
+
+/* SECTION 2 OF HOMEPAGE 2 */
+.section2HomePage2 {
+  /* width: 90%; */
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.section2HomePage2 h2{
+  font-size: 20px;
+}
+.vendorsSection{
+  display: flex;
+  box-sizing: border-box;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  height: 100px;
+  text-align: left;
+  margin: 10px 0px;
+}
+.vendorsSection h3{
+  font-size: 12px;
+  padding:  5px;
+  margin: 10px 2px;
+  width: 89px;
+}
+#Vendors{
+  width: 130px; 
+  height: 100px;
+  padding: 0;
+  margin: 0;
+  /* max-resolution: 20px; */
+  border-radius: 10px;
+}
+.productAmount{
+  width: 90px;
+  margin-left: 0px;
+  margin-right: 7px;
+  text-align: right;
+}
+.fish{
+  display: flex;
+  justify-content: center;
+}
+.fish img {
+  width: 50px;
+  height: 50px;
+}
+.PlusMinus{
+  display: flex;
+  height: 30px;
+}
+.PlusMinus button{
+  border: none;
+  width: 30px;
+  border-radius: 5px;
+}
+.PlusMinus h3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.total {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.total a {
+  text-decoration: none;
+  color: white;
+  background-color: #28B67E;
+  border-radius: 30px;
+  text-align: center;
+  width: 25%;
+  height: 30px;
+  padding-top: 10px;
+}
+
+.menus {
+    background-color: #28B67E;
+    height: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-decoration: none;
+}
+
+.menu img {
+    height: 40px;
+}
+
+.menu span {
+  color: white;
+  font-size: 15px;
+}
+#Buy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 40px;
+  border: none;
+  background-color: #28B67E;
+  color: black;
+  border-radius: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  width: 100%;
+  height: 5%;
+  background-color: #28B67E;
+}
+
+.header span {
+font-size: 33px;
+color: white;
+}
+
+.header img {
+  height: 43px;
+  width: 64px;
+}
